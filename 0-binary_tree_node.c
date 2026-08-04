@@ -16,8 +16,8 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 	/* Vérifier si malloc a échoué */
 	if (node == NULL)
-        {  
-                return (NULL);
+        {
+		return (NULL);
         }
 	/* Initialiser n, parent, left et right */
 	node->n = value;
